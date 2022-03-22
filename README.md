@@ -16,3 +16,6 @@ LowerCase, UpperCase,
 Date,
 function,
 validação global e local,
+onload,
+onchange,
+onmouseover.

@@ -1,3 +1,26 @@
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+    //console.log(document.getElementById("agradecimento"));
+}
+
+function redirecionar(){
+    window.open("https://github.com/DeividSouzaGIT");
+    //window.location.href = "https://github.com/DeividSouzaGIT";
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    //alert("Trocar texto")
+}
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    //alert("Trocar texto")
+}
+
+
+/*
 function soma(n1, n2){
     return n1 + n2;
 }
@@ -16,7 +39,7 @@ function validaIdade(idade){
 var idade = prompt("Qual sua idade?");
 validaIdade(idade)
 console.log(validar);
-
+*/
 
 //alert(soma(5, 10));
 
